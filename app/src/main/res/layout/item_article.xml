@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:maxHeight="380dp">
+
+    <ImageView
+
+        android:id="@+id/item_article_image"
+        android:layout_width="245dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:src="@drawable/article_image_example_3">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/article_credits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="19dp"
+        android:fontFamily="@font/playfairdisplay_regular"
+        android:textSize="9dp"
+        app:layout_constraintEnd_toEndOf="@id/item_article_image"
+        app:layout_constraintTop_toBottomOf="@id/item_article_image"
+        tools:text="Andy Wong/Associated Press">
+
+    </TextView>
+
+    <TextView
+
+        android:id="@+id/article_title"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/playfairdisplay_extrabold"
+        android:maxLines="3"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="A Window Into China’s Government Has Now Slammed Shut">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/article_preview"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:maxLines="4"
+        android:textSize="14dp"
+        android:fontFamily="@font/playfairdisplay_semibold"
+        tools:text="Once a year, the premier held a news conference, explaining the economy and giving the Chinese public a taste of political participation. That has now ended."
+        app:layout_constraintTop_toBottomOf="@+id/article_title"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="12dp">
+
+    </TextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
