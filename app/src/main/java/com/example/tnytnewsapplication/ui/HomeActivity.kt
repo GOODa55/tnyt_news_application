@@ -1,4 +1,4 @@
-package com.example.tnytnewsapplication
+package com.example.tnytnewsapplication.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -12,7 +12,9 @@ class HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityHomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
-
     }
+
+
+
+
 }
