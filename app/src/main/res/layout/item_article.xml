@@ -65,4 +65,18 @@
 
     </TextView>
 
+    <View
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:background="@color/grey"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="14dp">
+
+    </View>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
