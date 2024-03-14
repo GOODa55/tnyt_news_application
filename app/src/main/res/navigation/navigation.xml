@@ -12,4 +12,8 @@
     <action
         android:id="@+id/action_global_navigation_authorization"
         app:destination="@id/navigation_authorization" />
+    <include app:graph="@navigation/navigation_home" />
+    <action
+        android:id="@+id/action_global_navigation_home"
+        app:destination="@id/navigation_home" />
 </navigation>

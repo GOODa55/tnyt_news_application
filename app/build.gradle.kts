@@ -2,6 +2,8 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("com.google.gms.google-services")
+    id("androidx.navigation.safeargs.kotlin")
+
 }
 
 android {
@@ -11,7 +13,7 @@ android {
     defaultConfig {
         applicationId = "com.example.tnytnewsapplication"
         minSdk = 26
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -65,7 +67,8 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
     val nav_version = "2.6.0"
-//    implementation("androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version")
+
+    implementation("androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version")
     implementation("androidx.navigation:navigation-fragment-ktx:$nav_version")
     implementation("androidx.navigation:navigation-ui-ktx:$nav_version")
 

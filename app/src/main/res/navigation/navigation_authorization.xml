@@ -15,5 +15,9 @@
     <fragment
         android:id="@+id/registrationFragment"
         android:name="com.example.tnytnewsapplication.ui.authorization.RegistrationFragment"
-        android:label="RegistrationFragment" />
+        android:label="RegistrationFragment" >
+        <action
+            android:id="@+id/action_registrationFragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
+    </fragment>
 </navigation>
