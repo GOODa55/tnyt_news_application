@@ -1,6 +1,6 @@
 package com.example.tnytnewsapplication.data.model
 
-data class CurrentStroy(
+data class CurrentStory(
     val `abstract`: String,
     val byline: String,
     val created_date: String,

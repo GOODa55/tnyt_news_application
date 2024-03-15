@@ -56,6 +56,9 @@ dependencies {
     // Dependency Injection
     implementation("io.insert-koin:koin-android:3.4.0")
 
+    //paging
+    implementation("androidx.paging:paging-runtime:3.2.1")
+
     implementation(platform("com.google.firebase:firebase-bom:32.7.3"))
     implementation("com.google.firebase:firebase-analytics")
     implementation("androidx.core:core-ktx:1.9.0")
@@ -67,8 +70,7 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
     val nav_version = "2.6.0"
-
-    implementation("androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version")
+    //navigation
     implementation("androidx.navigation:navigation-fragment-ktx:$nav_version")
     implementation("androidx.navigation:navigation-ui-ktx:$nav_version")
 

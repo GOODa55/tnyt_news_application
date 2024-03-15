@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/navigation_home">
-
+    android:id="@+id/navigation_home"
+    app:startDestination="@id/navigation_current_news">
+    <include app:graph="@navigation/navigation_current_news" />
+    <include app:graph="@navigation/navigation_search" />
+    <include app:graph="@navigation/navigation_top_articles" />
 </navigation>

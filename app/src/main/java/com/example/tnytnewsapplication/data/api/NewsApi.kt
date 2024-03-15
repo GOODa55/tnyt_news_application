@@ -30,7 +30,7 @@ interface NewsApi {
         @Header("Authorization") token: String,
         @Path("source") source: String,
         @Path("section") section: String,
-        @Query("limit") limit: Integer,
-        @Query("offset") offset: Integer
+        @Query("limit") limit: Int,
+        @Query("offset") offset: Int
     ) : Response<CurrentNews>
 }

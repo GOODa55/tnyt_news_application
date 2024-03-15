@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/current_news"
+        android:id="@+id/navigation_current_news"
         android:title="Today"
         android:icon="@drawable/ic_tnyt_logo">
     </item>
 
     <item
-        android:id="@+id/top_news"
+        android:id="@+id/navigation_top_articles"
         android:title="Top Articles"
         android:icon="@drawable/ic_newspaper_icon">
     </item>
 
     <item
-        android:id="@+id/search_news"
+        android:id="@+id/navigation_search"
         android:title="Search"
         android:icon="@drawable/ic_search_icon">
     </item>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_current_news"
+    app:startDestination="@id/currentNewsFragment">
+
+    <fragment
+        android:id="@+id/currentNewsFragment"
+        android:name="com.example.tnytnewsapplication.ui.current.CurrentNewsFragment"
+        android:label="CurrentNewsFragment" />
+</navigation>
